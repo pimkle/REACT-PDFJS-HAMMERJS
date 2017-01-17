@@ -4,6 +4,11 @@ This project is not a plugin, it's a demo, a pdf viewer supporting gestures, zoo
 It's a reactjs project, using gulp and webpack.
 #INSTALL
 (sudo) npm install
+#COR
+react-pdfjs is not supporting cor files, there are 2 solutions:
+1. using pdfs on same origins only.
+2. open cor on the pdf server. (suppliers like aliyun provide such services)
+
 ## ATTENTION
 PDF WITH SIGNATURE
 react-pdfjs has been modified to enable signatures. issue link: https://github.com/mozilla/pdf.js/issues/4743

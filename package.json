@@ -1,0 +1,67 @@
+{
+  "name": "gentelella",
+  "version": "1.3.0",
+  "description": "Gentellela Admin is a free to use Bootstrap admin template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "FIXFIX": "webpack --progress --profile --colors --display-error-details --display-cached"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puikinsh/gentelella.git"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "template",
+    "admin",
+    "bootstrap",
+    "theme",
+    "backend",
+    "responsive"
+  ],
+  "author": "Aigars Silkalns",
+  "contributors": [
+    "Christian Esperar"
+  ],
+  "license": "MIT",
+  "main": "build/js/custom.min.js",
+  "bugs": {
+    "url": "https://github.com/puikinsh/gentelella/issues"
+  },
+  "homepage": "https://github.com/puikinsh/gentelella#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "^2.12.10",
+    "component-webpack-plugin": "^0.2.1",
+    "css-loader": "^0.26.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-connect-proxy ": "^0.3.1",
+    "gulp-file-include": "^1.0.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-react": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^1.5.3",
+    "http-proxy-middleware": "^0.17.3",
+    "postcss-px2rem": "^0.3.0",
+    "proxy-middleware": "^0.15.0",
+    "react-hammerjs": "^0.5.0",
+    "run-sequence": "^1.2.2",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "react-lazyload": "^2.2.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0"
+  }
+}

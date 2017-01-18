@@ -4,7 +4,8 @@ This project is not a plugin, it's a demo, a pdf viewer supporting gestures, zoo
 It's a reactjs project, using gulp and webpack.
 #INSTALL
 (sudo) npm install  
-gulp
+gulp  
+Sometimes gulp doesn't work very well, restart it would be fine.Sometimes start more than one gulp would cause some problems, shut down others would be fine.
 #COR
 react-pdfjs is not supporting cor files, there are 2 solutions:
 1. using pdfs on same origins only.
